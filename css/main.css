@@ -1,0 +1,80 @@
+body {
+    background-color: white;
+}
+.container {
+    margin: 0px auto 0px 0px;
+    width: 1000px;
+}
+
+.header {
+    padding-left: 230px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.header h1 {
+    margin-bottom: 0px;
+}
+
+.header span {
+    margin-left: 20px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 2px;
+    border-width: 0px 0px 1px 0px;
+}
+
+* {
+    font-family: helvetica;
+}
+
+.header a {
+    color: black;
+    text-decoration: none;
+}
+
+.sidebar {
+    width: 200px;
+    float: left;
+}
+
+.sidebar a {
+    display: block;
+
+    color: black;
+    text-decoration: none;
+
+    border-style: solid;
+    border-width: 1px 1px 3px 3px;
+    border-radius: 10px;
+    border-color: black;
+
+    line-height: 20px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+
+    font-family: helvetica monospace;
+}
+
+.wizard {
+    margin-top: -20px;
+    width: 200px;
+}
+
+.content {
+    width: 770px;
+    float: right;
+}
+
+.post span {
+    color: grey;
+}
+
+.post p {
+    margin-top: 5px;
+}
+
+.footer {
+    clear: both;
+    text-align: center;
+}
