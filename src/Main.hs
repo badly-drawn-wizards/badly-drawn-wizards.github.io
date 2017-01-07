@@ -10,7 +10,7 @@ import Data.Monoid ((<>))
 import Hakyll
 
 main :: IO ()
-main = hakyll $ do
+main = hakyllWith config $ do
   match "templates/*" $ compile templateCompiler
 
   match ("css/*.css" .||. "images/*") $ do
@@ -52,6 +52,9 @@ main = hakyll $ do
     compile $ makeItem ""
       >>= loadAndApplyTemplate "templates/archive.html" ctxt
       >>= applyDefaultTemplate ctxt
+
+config :: Configuration
+config = defaultConfiguration { deployCommand = "/bin/sh deploy.sh" }
 
 applyDefaultTemplate :: Context String -> Item String -> Compiler (Item String)
 applyDefaultTemplate ctx item = item
