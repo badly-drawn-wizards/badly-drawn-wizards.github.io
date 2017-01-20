@@ -14,7 +14,7 @@ them.
 - **Version Control** with *Git*
 
 ## Proof Assistants ##
-- *Coq* through Software Foundations
+- **Coq** through Software Foundations
 
 # Projects #
 
@@ -26,6 +26,7 @@ them.
 # Experience #
 
 | Title         | Employer            | Duration                 | Description                    |
+|---------------|---------------------|--------------------------|--------------------------------|
 | Intern SDE    | Amazon Web Services | June 2016 - July 2016    | Worked on EC2 related services |
 | Intern SDE    | Amazon Web Services | June 2015 - January 2016 | Worked on EC2 related services |
 | Web Developer | Causal Nexus        | January 2013 - May 2015  | Developed front-end dashboard  |
